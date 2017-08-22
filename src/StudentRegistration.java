@@ -29,7 +29,7 @@ public class StudentRegistration extends HttpServlet {
 				+ "<head>"
 				+ "<title>Register Yourself</title>"
 				+ "</head>"
-				+ "<body>"
+				+ "<body BGCOLOR=\"#FDF5E6\" align=\"center\">"
 				+ "<h1>Student Registration</h1>"
 				+ "<form method=\"POST\" action=\"StudentRegistration\">"
 				+ "<INPUT TYPE=\"TEXT\" NAME=\"firstName\" VALUE=\"First Name\"><BR>"

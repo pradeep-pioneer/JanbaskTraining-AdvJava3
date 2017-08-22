@@ -21,7 +21,7 @@ public class HelloWorld extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter output = response.getWriter();
-		output.write("<html><head><title>Welcome</title></head><body>");
+		output.write("<html><head><title>Welcome</title></head><body BGCOLOR=\"#FDF5E6\" align=\"center\">");
 		output.write("<h1>Hello World from Janbask Training!</h1>");
 		output.write("</body></html>");
 	}
